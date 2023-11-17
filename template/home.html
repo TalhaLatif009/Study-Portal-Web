@@ -1,0 +1,16 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+<main class="layout layout--3">
+  <div class="container">
+    <!-- Topics Start -->
+    {% include 'topic-component.html' %}
+
+    <!-- Room List Start -->
+    {% include 'feed-component.html' %}
+
+    <!-- Activities Start -->
+    {% include 'activity-component.html' %}
+  </div>
+</main>
+{% endblock %}
